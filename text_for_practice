@@ -1,0 +1,71 @@
+Policy-reserved domains
+
+We act as both the registrant and registrar for a select number of domains which have been reserved under policy grounds. These exclusions are typically indicated in either technical standards (RFC documents), or contractual limitations.
+
+dddooommm which are described as registered to IANA or ICANN on policy grounds are not available for registration or transfer, with the exception of country-name.info domains. These domains are available for release by the ICANN Governmental Advisory Committee Secretariat.
+Other Special-Use Domains
+
+dddooommm There is additionally a Special-Use Domain Names registry documenting special-use domains designated by technical standards. For further information, see Special-Use Domain Names (RFC 6761).
+this text will be very defragmented. now we know about "J" command and use it ! VIM просто потрясающе мощная программа !!!!! нужно уделить ей как можно больше внимания. особенно практическому закреплению полученных навыков !
+
+Domains Stopping the Static Content Explosion
+
+So consider our NTP module.
+
+Right now, we’re shipping around two different config files, which resemble the defaults for Red Hat-like and Debian-like OSes. What if we wanted to make a few small and reasonable changes? For example:
+
+    Use different NTP servers for a small number of machines
+    Adjust the settings on virtual machines, so NTP doesn’t panic if the time jumps
+
+We could end up maintaining eight or more different config files! Let’s not do that. Instead, we can manage a bunch of small differences in one or two template files.
+
+Templates are documents that contain a mixture of static and dynamic content. By using a small amount of conditional logic and variable interpolation, they let you maintain one source document that can be rendered into any number of final documents.
+
+For more details on the behavior of Puppet templates, see the guide for Using Puppet Templates; we’ll cover the basics right here.
+Template Files
+
+    x x x
+
+Templates are saved as files with the .erb extension, and should be stored in the templates/ directory of any module. There can be any number of subdirectories inside templates/.
+Rendering Templates
+
+To use a template, you have to render it to produce an output string. To do this, use Puppet’s built-in template function. This function takes a path to one or more template files and returns an output string:
+
+	here will be some string of programm code of puppet dsl language
+# text
+#   text
+# ..text
+# 
+# testing operations for searching in one string only
+# 
+
+ass or this or that
+
+задача поменять их местами с помощью временных буферов (hold buffers)
+2.Finish $$
+задача поменять 1.Start на 2.Finish
+
+задача: закомментировать строки с 35 по 40
+35,40s/.*/# &/ - что и требовалось доказать )) данная штука вполне работает )))
+
+
+задача: поменять first or second местами и поменять регистр слов соответствующим образом
+
+Second or first
+
+:s/\(first\) or \(second\)/\u\2 or \l\1/
+
+
+
+попробуем использование различных разделителей в командах поиска и подстановки
+
+/tmp/456
+
+
+children childish childhood
+
+
+
+proc1_class
+proc2_class
+proc3_class

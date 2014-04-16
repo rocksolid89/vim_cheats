@@ -1,0 +1,34 @@
+file with new stuffi
+
+всегда проверяйте в каком режиме вы нахдитесь во время работы с редактором текста vim
+
+перемещение курсора:
+
+simple mode:
+k-move to the top  (1 line)
+j-move down (1 line)
+l-to the right at 1 symbol
+h-to the left at 1 symbol
+
+also you can use command like this: 4h.5l, 2k, 3j (where *number* - number of symbols or number of lines for certain command)
+
+для задания отступа от правого края экрана можно использовать опцию wm (wrap margin); like 'set wm=10'
+
+этим текстом я пытаюсь проверить как работает опция связанная с автоматичиским переводом строки, которая становится доступной после
+ввода в коммандном режиме 'sen wm=number'.как выяснилось все работает прекрасно :)
+
+для перемещения курсора по строке используйте следующие команды
+0 - move to beginning of the line
+$ - move to end of the line
+
+
+so... i broke my vim couple minutes ago, and don't have any updates of my swap file with command (:pre)
+
+
+okay... let's moving on...
+
+итак мы закончили на фиче с переходом по тексту по словам (учитывая или не учитывая пробельные символы и знаки препинания)
+
+w - перемещение на одно слово вперед
+b - перемещение на одно слово назад (так же допускается использование числового модификатора перед командой)
+G - переход в конец файла (4G - переход на определенную строку) 
